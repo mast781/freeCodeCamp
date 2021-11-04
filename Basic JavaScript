@@ -69,3 +69,7 @@ const sum = 10 + 10;
 
 // ---12
 const difference = 45 - 33;
+
+// Multiply Two Numbers with JavaScriptPassed
+const product = 8 * 10;
+
