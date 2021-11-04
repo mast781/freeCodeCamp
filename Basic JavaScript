@@ -85,3 +85,6 @@ myVar++;
 let myVar = 11;
      // Only change code below this line
 myVar--;
+
+// Create Decimal Numbers with JavaScript
+const myDecimal = 5.7;
