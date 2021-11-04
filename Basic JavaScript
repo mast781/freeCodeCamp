@@ -88,3 +88,6 @@ myVar--;
 
 // Create Decimal Numbers with JavaScript
 const myDecimal = 5.7;
+
+// Multiply Two Decimals with JavaScriptPassed
+const product = 2.0 * 2.5;
