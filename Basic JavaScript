@@ -242,3 +242,6 @@ const myAdverb = "quickly";
     // Only change code below this line
 const wordBlanks = "My " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb; // Change this line
     // Only change code above this line
+
+// Store Multiple Values in one Variable using JavaScript Arrays
+const myArray = ["My age", 43];
