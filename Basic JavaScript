@@ -249,3 +249,7 @@ const myArray = ["My age", 43];
 // Nest one Array within Another Array
     // Only change code below this line
 const myArray = [["Mary", 24], ["Andy", 34]];
+
+// Access Array Data with Indexes
+const myArray = [50, 60, 70];
+const myData = myArray[0];
