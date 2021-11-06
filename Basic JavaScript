@@ -278,4 +278,4 @@ myArray.push(["dog", 3]);
 // Manipulate Arrays With pop()
       // Setup
 const myArray = [["John", 23], ["cat", 2]];
-const removedFromArray = myArray.pop()
+const removedFromMyArray = myArray.pop()
