@@ -307,3 +307,10 @@ function functionWithArgs(param1, param2) {
 }
 
 functionWithArgs(1, 3);
+
+// Return a Value from a Function with Return
+function timesFive(num) {
+  return num * 5;
+}
+
+const answer = timesFive(5);
