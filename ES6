@@ -50,3 +50,12 @@ console.log(myConcat([1, 2], [3, 4, 5]));
 
 // Set Default Parameters for Your Functions
 const increment = (number, value = 1) => number + value;
+
+// Use Destructuring Assignment to Extract Values from Objects
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+
+const { today, tomorrow } = HIGH_TEMPERATURES;
