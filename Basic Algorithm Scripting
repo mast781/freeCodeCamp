@@ -75,3 +75,18 @@ const booWho = (bool) => typeof bool == "boolean"
 
 
 booWho(null);
+
+// Title Case a Sentence
+function titleCase(str) {
+    let arrStr = str.toLowerCase().split(" ")
+    let strVrem = ""
+
+    for (let i = 0; i <= arrStr.length - 1; i++) {
+        strVrem = arrStr[i]
+        arrStr[i] = strVrem[0].toUpperCase() + strVrem.substring(1)
+    }
+
+    return arrStr.join(" ")
+}
+
+titleCase("I'm a little tea pot")
