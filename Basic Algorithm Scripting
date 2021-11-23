@@ -90,3 +90,19 @@ function titleCase(str) {
 }
 
 titleCase("I'm a little tea pot")
+
+// Slice and Splice
+function frankenSplice(arr1, arr2, n) {
+    let i = 0
+    const arrResult = []
+    do {
+        if (n == i) {
+            for (let j = 0; j < arr1.length; j++) arrResult.push(arr1[j])
+        }
+        if (arr2.length > 0) arrResult.push(arr2[i])
+        i++
+    } while (i < arr2.length)
+    return arrResult;
+}
+
+frankenSplice([1, 2, 3], [4, 5], 1)
