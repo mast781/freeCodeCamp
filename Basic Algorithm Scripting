@@ -17,3 +17,17 @@ function factorialize(num) {
 
 factorialize(5);
 
+// Find the Longest Word in a String
+function findLongestWordLength(str) {
+    let longestWordLength = 0
+    const arrayWords = str.split(" ")
+
+    for (let i = 0; i <= arrayWords.length - 1; i++) {
+        if (longestWordLength < arrayWords[i].length) longestWordLength = arrayWords[i].length
+    }
+
+    return longestWordLength;
+}
+
+findLongestWordLength("The quick brown fox jumped over the lazy dog");
+
