@@ -108,3 +108,7 @@ function frankenSplice(arr1, arr2, n) {
 frankenSplice([1, 2, 3], [4, 5], 1)
 
 // Falsy Bouncer
+const bouncer = (arr) => arr.filter(value => Boolean(value) != false )
+
+
+bouncer([7, "ate", "", false, 9]);
