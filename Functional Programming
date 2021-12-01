@@ -37,3 +37,9 @@ console.log(
   tea4GreenTeamFCC,
   tea4BlackTeamFCC
 );
+
+// Return Part of an Array Using the slice Method
+const sliceArray = (anim, beginSlice, endSlice) => anim.slice(beginSlice, endSlice)
+
+const inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
+sliceArray(inputAnim, 1, 3);
