@@ -194,3 +194,8 @@ function getRating(watchList) {
 }
 
 console.log(getRating(watchList));
+
+// Sort an Array Alphabetically using the sort Method
+const alphabeticalOrder = (arr) => arr.sort()
+
+alphabeticalOrder(["a", "d", "c", "a", "z", "g"]);
